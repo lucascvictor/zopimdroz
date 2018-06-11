@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<!-- https://developer.zendesk.com/embeddables/docs/widget/api#ze.show -->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Chat Suporte</title>
+    <!-- <link rel="stylesheet" type="text/css" href="content/main.css"> -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <!-- Start of totvsexterno Zendesk Widget script -->
+    <script>
+        /*<![CDATA[*/window.zEmbed || function (e, t) { var n, o, d, i, s, a = [], r = document.createElement("iframe"); window.zEmbed = function () { a.push(arguments) }, window.zE = window.zE || window.zEmbed, r.src = "javascript:false", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "display: none", d = document.getElementsByTagName("script"), d = d[d.length - 1], d.parentNode.insertBefore(r, d), i = r.contentWindow, s = i.document; try { o = s } catch (c) { n = document.domain, r.src = "javascript:var d=document.open();d.domain=\"" + n + "\";void(0);", o = s } o.open()._l = function () { var o = this.createElement("script"); n && (this.domain = n), o.id = "js-iframe-async", o.src = e, this.t = +new Date, this.zendeskHost = t, this.zEQueue = a, this.body.appendChild(o) }, o.write("<body onload=\"document._l();\">"), o.close() }("https://assets.zendesk.com/embeddable_framework/main.js", "totvssuporte.zendesk.com");/*]]>*/
+    </script>
+    <!-- End of totvsexterno Zendesk Widget script -->
+
+    <script>
+        function getQueryVariable(variable) {
+            var get = window.location.search.substring(1); //get de substring após o ?
+            if (typeof (gets) != "undefined" && typeof (gets) != "null" && gets != "") {
+                var vars = get.split("&"); //divide as variaveis com os seus valores
+                for (var i = 0; i < vars.length; i++) {
+                    var variaveis = vars[i].split("="); //divide variavel do seu valor
+                    if (variaveis[0] == variable) {
+                        if (variaveis[1].indexOf("%")) { //se existir % no valor da variável
+                            var saida = variaveis[1].replace("%20", " "); //insere espaços em palavras com problema de Encode
+                            return saida;
+                        } else {
+                            return variaveis[1];
+                        }
+                    }
+                }
+            }
+            return "";
+        }
+
+        zE(function () {
+            zE.setLocale("pt-BR");
+
+             $zopim(function() {
+                $zopim.livechat.setName('Lucas');
+                $zopim.livechat.setEmail('lucas@somewhere.com');
+                $zopim.livechat.departments.setVisitorDepartment('Fly01 Manufatura');
+            });
+
+            $zopim(function () {
+                var depto = getQueryVariable("product");
+                if (depto == "") {
+                    $zopim.livechat.departments.filter("Bemacash", "Fly01 Compras", "Fly01 Estoque", "Fly01 Faturamento", "Fly01 Financeiro", "Fly01 Manufatura", "Fly01 Saúde", "Fly01 Varejo");
+                    $zopim.livechat.addTags("fly01");
+                } else {
+                    if (depto == "Fly01 Manufatura") {
+                        $zopim.livechat.addTags("fly01_manufatura");
+                        $zopim.livechat.addTags("fly01_manufatura_totvs_offline");
+                    } else if (depto == "Fly01 Varejo") {
+                        $zopim.livechat.addTags("fly01_varejo");
+                        $zopim.livechat.addTags("fly01_varejo_totvs_offline");
+                    } else if (depto == "Bemacash") {
+                        $zopim.livechat.addTags("depto_bemacash");
+                        $zopim.livechat.addTags("bemacash_totvs_offline");
+                    }
+                    $zopim.livechat.departments.filter(depto);
+                }
+                $zopim.livechat.theme.reload();
+            });
+            zE.show();
+        });
+    </script>
+
+
+
+</head>
+<body>
+</body>
+</html>
+<script>
+    $("document").ready(function () {
+        setTimeout(function () { zE.activate(); }, 4500);
+    });
+</script>
