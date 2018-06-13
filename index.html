@@ -4,12 +4,13 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <title>Atendimento via Chat - TOTVS</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <!-- Compiled and minified CSS -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+ <link rel="stylesheet" href="fly01Chat.css">
 
  <!-- Compiled and minified JavaScript -->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
@@ -17,7 +18,7 @@
 </head>
 <body>
   <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container " href="#" class="brand-logo"><img src="https://totvsdigital.azureedge.net/prod/images/default-source/totvs/default-album/logo-totvs.png" height="45px" width="100px" style="margin-top: 5%;"></a>
+    <div class="nav-wrapper container"><a id="logo-container " href="#" class="brand-logo"><img src="https://totvsdigital.azureedge.net/prod/images/default-source/totvs/default-album/logo-totvs.png" height="45px" width="125px" style="margin-top: 5%;"></a>
 
       <ul class="right hide-on-med-and-down">
             <li><a href="https://www.totvs.com/contato">Contato</a></li>
@@ -33,7 +34,7 @@
     <div class="container">
       <h2 class="header center orange-text">Suporte via Chat</h2>
       <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <h5 class="header col s12 light">Selecione abaixo o produto para suporte</h5>
       </div>
       
     </div>
@@ -45,13 +46,27 @@
 
       <!--   Icon Section   -->
       <div class="row">
+          <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center light-blue-text" ><i class="material-icons">store</i></h2>
+                <h5 class="center">Bemacash</h5>
+    
+                <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+                <center>  
+                  <a class="waves-effect waves-light btn-large orange" onClick="bemacash()">Iniciar o chat</a>
+                </center>
+            </div>
+            </div>
+
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center light-blue-text"><i class="material-icons">build</i></h2>
             <h5 class="center">Fly01 Manufatura</h5>
 
             <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. </p>
-            <a class="waves-effect waves-light btn-large">Iniciar o chat</a>
+            <center>
+              <a class="waves-effect waves-light btn-large" onClick="manufatura()">Iniciar o chat</a>
+            </center>
           </div>
         </div>
 
@@ -61,26 +76,24 @@
             <h5 class="center">Fly01 Varejo</h5>
 
             <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components</p>
-            <a class="waves-effect waves-light btn-large">Iniciar o chat</a>
+            <center> 
+              <a class="waves-effect waves-light btn-large blue" onClick="varejo()">Iniciar o chat</a>
+            </center> 
         </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text" ><i class="material-icons">store</i></h2>
-            <h5 class="center">Bemacash</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started.</p>
-            <a class="waves-effect waves-light btn-large">Iniciar o chat</a>
-        </div>
-        </div>
+        
       </div>
 
     </div>
     <br><br>
   </div>
+  <div class="container">
+    <div class="espaco">
 
-  <footer class="page-footer orange">
+    </div>
+  </div>
+  <footer class="page-footer #F79321">
     <div class="container">
       <div class="row">
         <div class="col l3 s12">
@@ -166,6 +179,10 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+  <script src="initChat.js"/>
+
+  <script src="iZopim.js" /> 
 
   </body>
 </html>
