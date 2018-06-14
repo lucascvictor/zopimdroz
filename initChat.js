@@ -1,5 +1,3 @@
-var prechat_inputs = [];
-prechat_inputs['name'] = 'Lucas';
 
 function manufatura() {
     var key = '63dee53e15d58dfce07eaaa496a479bac1376d31';
