@@ -31,16 +31,16 @@ function initChat() {
 }
 
 function reinit() {
-    $('header').remove();
+    $('droz').remove();
     $('#drz_btn_open').remove();
     $('#droz-div').remove();
-    var hdr = document.createElement("header");                        
+    var hdr = document.createElement("droz");                        
     document.body.appendChild(hdr); 
 }
 
 function createChat(key) {
   (function(d,r,o,z,a,k,t){
-    a=d.getElementsByTagName('header')[0];
+    a=d.getElementsByTagName('droz')[0];
     k=d.createElement('script');k.async=1;
     t=(Math.floor(Math.random()*1000000)+1);
     k.src=r+'/'+o+'/droz.js?i='+z+'&u='+r+'&v='+t;
