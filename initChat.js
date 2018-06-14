@@ -4,6 +4,7 @@ function manufatura() {
     reinit();
     createChat(key);
     initChat();
+    intervalar('Fly01 Manufatura');
   }
 
 function varejo() {
@@ -11,6 +12,7 @@ function varejo() {
     reinit();
     createChat(key);
     initChat();
+    intervalar('Fly01 Varejo');
   }
 
 function bemacash() {
@@ -18,6 +20,7 @@ function bemacash() {
     reinit(); 
     createChat(key);
     initChat();
+    intervalar('Bemacash');
   }
 
 function initChat() {
