@@ -6,19 +6,17 @@
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
       <title>Atendimento via Chat - TOTVS</title>
-    
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
       <link rel="stylesheet" href="fly01Chat.css">
-     
       <script>
-			  src="https://code.jquery.com/jquery-2.2.4.js"
-			  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-                    crossorigin="anonymous"></script>
+         src="https://code.jquery.com/jquery-2.2.4.js"
+         integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+                        crossorigin="anonymous">
+      </script>
    </head>
    <body>
       <header>
-
       </header>
       <nav class="light-blue lighten-1" role="navigation">
          <div class="nav-wrapper container">
@@ -44,48 +42,56 @@
          <div class="section">
             <!--   Icon Section   -->
             <div class="row">
-               <div class="col s12 m4">
+               <div class="col s12 m3">
                   <div class="icon-block">
                      <h2 class="center light-blue-text" ><i class="material-icons">store</i></h2>
                      <h5 class="center">Bemacash</h5>
                      <p class="light">PDV completo com  que irá revolucionar a gestão da sua loja. Organize as informações dos seus produtos, controle os processos de compra e venda e deixe tudo mais bonito e organizado com equipamentos de qualidade compactos e modernos. </p>
-
                   </div>
                </div>
-               <div class="col s12 m4">
+               <div class="col s12 m3">
                   <div class="icon-block">
                      <h2 class="center light-blue-text"><i class="material-icons">build</i></h2>
                      <h5 class="center">Fly01 Manufatura</h5>
                      <p class="light">Sistema de gestção ideal para você ter controle total do seu negócio e produzir mais. <br><br></p>
-
                   </div>
                </div>
-               <div class="col s12 m4">
+               <div class="col s12 m3">
                   <div class="icon-block">
                      <h2 class="center light-blue-text"><i class="material-icons">shopping_cart</i></h2>
                      <h5 class="center">Fly01 Varejo</h5>
                      <p class="light">Uma solução fácil de usar, com vasta gama de recursos, proporcionando controle nos processos de compras e estoque, financeiro, faturamento e e-commerce propiciando redução de custos operacionais. <br></p>
-
+                  </div>
+               </div>
+               <div class="col s12 m3">
+                  <div class="icon-block">
+                        <h2 class="center light-blue-text"><i class="material-icons">healing</i></h2>
+                        <h5 class="center">Fly01 Saúde</h5>
+                        <p class="light">Com Fly01, você tem acesso à agenda e prontuário de onde estiver, com sincronização automática das informações inseridas pelo médico e pela secretária. <br></p>
                   </div>
                </div>
             </div>
             <div class="row">
-                        <div class="col s12 m4">
-                                   <center>  
-                                          <a class="waves-effect waves-light btn-large orange" onClick="bemacash()">Iniciar o chat</a>
-                                       </center>
-                         </div>
-                                 <div class="col s12 m4">
-                                  <center>
-                                          <a class="waves-effect waves-light btn-large" onClick="manufatura(); initChat()">Iniciar o chat</a>
-                                       </center>
-                                 </div>
-                                 <div class="col s12 m4">
-                                   <center> 
-                                          <a class="waves-effect waves-light btn-large blue" onClick="varejo()">Iniciar o chat</a>
-                                       </center>
-                                 </div>
-
+               <div class="col s12 m3">
+                  <center>  
+                     <a class="waves-effect waves-light btn-large orange" onClick="bemacash()">Iniciar o chat</a>
+                  </center>
+               </div>
+               <div class="col s12 m3">
+                  <center>
+                     <a class="waves-effect waves-light btn-large" onClick="manufatura()">Iniciar o chat</a>
+                  </center>
+               </div>
+               <div class="col s12 m3">
+                  <center> 
+                     <a class="waves-effect waves-light btn-large blue" onClick="varejo()">Iniciar o chat</a>
+                  </center>
+               </div>
+               <div class="col s12 m3">
+                        <center> 
+                           <a class="waves-effect waves-light btn-large pink" onClick="saude()">Iniciar o chat</a>
+                        </center>
+                     </div>
             </div>
          </div>
          <br><br>
@@ -170,10 +176,8 @@
       </footer>
       <!--  Scripts-->
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-
       <script src="iZopim.js"></script>
       <script src="initChat.js"></script> 
-
-      </body>
-      </html>
+   </body>
+</html>
 

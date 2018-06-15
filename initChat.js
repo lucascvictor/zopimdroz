@@ -25,8 +25,19 @@ function bemacash() {
     intervalar(dep);
   }
 
+function saude() {
+    setDep('Fly01 Saude');
+    reinit();
+    initZopim();
+    intervalar(dep);
+}
+
 function initChat() {
     $('#drz_btn_open').click();
+}
+
+function initZopim() {
+  
 }
 
 function reinit() {
