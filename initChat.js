@@ -26,7 +26,7 @@ function bemacash() {
   }
 
 function saude() {
-    setDep('Fly01 Saude');
+    setDep('Fly01 Saúde');
     reinit();
     initZopim();
     intervalar(dep);
@@ -36,16 +36,15 @@ function initChat() {
     $('#drz_btn_open').click();
 }
 
-function initZopim() {
-  
-}
-
 function reinit() {
     $('droz').remove();
     $('#drz_btn_open').remove();
     $('#droz-div').remove();
+    $('.zopim').remove();
+    $('iframe').remove();
     var hdr = document.createElement("droz");                        
     document.body.appendChild(hdr); 
+    
 }
 
 function createChat(key) {
