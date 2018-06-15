@@ -1,4 +1,5 @@
 var dep = "";
+var zopimChat = document.getElementsByClass('jx_ui_Widget');
 
 function setDep(depart) {
   dep = depart;
@@ -10,11 +11,11 @@ function getDep() {
 
 function intervalar() {
     window.setInterval('zopim()', 2000);
-  }
+}
   
-  function zopim() {
-     $zopim(function() {
-             $zopim.livechat.departments.setVisitorDepartment(getDep());
-         });
-  }
+function zopim() {
+    $zopim(function() {
+            $zopim.livechat.departments.setVisitorDepartment(getDep());
+        });
+}
   

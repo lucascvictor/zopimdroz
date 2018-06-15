@@ -1,4 +1,3 @@
-
 function manufatura() {
     var key = '63dee53e15d58dfce07eaaa496a479bac1376d31';
     setDep('Fly01 Manufatura');
