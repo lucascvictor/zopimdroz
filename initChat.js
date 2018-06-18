@@ -3,8 +3,8 @@ function manufatura() {
     setDep('Fly01 Manufatura');
     reinit();
     createChat(key);
-    initChat();
     intervalar(dep);
+    initChat();
   }
 
 function varejo() {
@@ -12,8 +12,8 @@ function varejo() {
     setDep('Fly01 Varejo');
     reinit();
     createChat(key);
-    initChat();
     intervalar(dep);
+    initChat();
   }
 
 function bemacash() {
@@ -21,8 +21,8 @@ function bemacash() {
     setDep('Bemacash');
     reinit(); 
     createChat(key);
-    initChat();
     intervalar(dep);
+    initChat();
   }
 
 function saude() {
@@ -30,10 +30,11 @@ function saude() {
     reinit();
     initZopim();
     intervalar(dep);
+    initChat();
 }
 
 function initChat() {
-    $('#drz_btn_open').click();
+    setTimeout(function(){ document.getElementById("drz_btn_open").click(); }, 2000);
 }
 
 function reinit() {
@@ -43,8 +44,7 @@ function reinit() {
     $('.zopim').remove();
     $('iframe').remove();
     var hdr = document.createElement("droz");                        
-    document.body.appendChild(hdr); 
-    
+    document.body.appendChild(hdr);
 }
 
 function createChat(key) {
