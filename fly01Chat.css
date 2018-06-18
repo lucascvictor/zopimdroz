@@ -18,6 +18,8 @@
  .material-icons.md-bema { color: orange; }
  .material-icons.md-saude { color: pink; }
  .material-icons.md-varejo { color: blue; }
+ .material-icons.md-manufatura { color: #2BBBAD; }
+ 
  
  /* Rules for using icons as white on a dark background. */
  .material-icons.md-light { color: rgba(255, 255, 255, 1); }
