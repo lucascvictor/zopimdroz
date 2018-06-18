@@ -26,7 +26,7 @@ function bemacash() {
   }
 
 function saude() {
-    setDep('Fly01 Saúde');
+    setDep('Fly01 SaÃºde');
     reinit();
     initZopim();
     intervalar(dep);
