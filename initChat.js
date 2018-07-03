@@ -45,10 +45,10 @@ function init(key, dep) {
     createChat(key);
     intervalar(dep);
     initChat();
-    vMobile();
+    vApple();
 }
 
-function vMobile() {
+function vApple() {
   var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -70,8 +70,7 @@ function vMobile() {
     }
   };
 
-  if( isMobile.iOS() ) alert('iOS');
-  if( isMobile.Android() ) alert('Android');
+  if( isMobile.iOS() ) alert('iPhone');//setTimeout(function(){ $('.src-component-Launcher-wrapper').click(); }, 6000); 
 }
 
 function createChat(key) {
