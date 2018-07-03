@@ -2,27 +2,21 @@ function manufatura() {
     var key = '63dee53e15d58dfce07eaaa496a479bac1376d31';
     setDep('Fly01 Manufatura');
     reinit();
-    createChat(key);
-    intervalar(dep);
-    initChat();
+    init(key, dep);
   }
 
 function varejo() {
     var key = 'be8b72062018b69b54062314aff176cbe10da270';
     setDep('Fly01 Varejo');
     reinit();
-    createChat(key);
-    intervalar(dep);
-    initChat();
+    init(key, dep);
   }
 
 function bemacash() {
     var key = '3e9ee6c5c4656822f19621bfbf8416972400751b';
     setDep('Bemacash');
     reinit(); 
-    createChat(key);
-    intervalar(dep);
-    initChat();
+    init(key, dep);
   }
 
 function saude() {
@@ -45,6 +39,20 @@ function reinit() {
     $('iframe').remove();
     var hdr = document.createElement("droz");                        
     document.body.appendChild(hdr);
+}
+
+function init(key, dep) {
+    createChat(key);
+    intervalar(dep);
+    initChat();
+    vApple();
+}
+
+function vApple() {
+  var isSafari = window.safari !== undefined;
+  if (isSafari) {
+    setTimeout(function(){ $('.src-component-Launcher-wrapper').click(); }, 2000);
+  }
 }
 
 function createChat(key) {
