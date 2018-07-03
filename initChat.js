@@ -45,7 +45,7 @@ function init(key, dep) {
     createChat(key);
     intervalar(dep);
     initChat();
-    vApple();
+    vMobile();
 }
 
 function vMobile() {
