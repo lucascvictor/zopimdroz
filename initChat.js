@@ -70,10 +70,10 @@ function vApple() {
     }
   };
 
-  if( isMobile.iOS() ) alert('iPhone');//setTimeout(function(){ $('.src-component-Launcher-wrapper').click(); }, 6000); 
+  if( isMobile.iOS() ) setTimeout(function(){ $('.src-component-Launcher-wrapper').click(); }, 6000); 
 }
 
-function createChat(key) {
+var createChat = key => {
   (function(d,r,o,z,a,k,t){
     a=d.getElementsByTagName('droz')[0];
     k=d.createElement('script');k.async=1;
