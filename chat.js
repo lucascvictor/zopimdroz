@@ -16,8 +16,8 @@ var saude = () => {
         $zopim(function () {
             $zopim.livechat.hideAll();
             $zopim.livechat.set({ language: "pt-BR" });
-            $zopim.livechat.departments.filter('Fly01 Sa�de');
-            $zopim.livechat.departments.setVisitorDepartment('Fly01 Sa�de');
+            $zopim.livechat.departments.filter('Fly01 Saúde');
+            $zopim.livechat.departments.setVisitorDepartment('Fly01 Saúde');
         });
         zE.show();
         zE.activate();
