@@ -192,5 +192,12 @@
     </footer>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="chat.js"></script>
+    <script>
+      $zopim(function() {
+        $zopim.livechat.setOnConnected(function() {
+            $zopim.livechat.setLanguage("pt_BR");
+        });
+    });
+</script> 
 </body>
 </html>
