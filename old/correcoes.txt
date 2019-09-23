@@ -1,5 +1,0 @@
-1) Adicionar um outro produto (Fly01 Saude) o mesmo deve abrir um link de chat normal (não tera robo)
-2) Aumentar o tamanho dos icones
-3) Diminuir o espacamento da barra azul para o titulo "Suporte via Chat"
-4) Diminuir o espacamento entre "Selecione abaixo o produ..." e os icones
-e se possivel, quando clicar no "INICIAR O CHAT" ele ja trazer "aberto o chat"
