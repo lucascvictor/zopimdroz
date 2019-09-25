@@ -62,219 +62,236 @@
                                                                 </div>
                                                                 <div class="col s12 m12">
                                                                     <p class="text-left textos ">Horário de atendimento: de segunda à sexta-feira, das 8:00h às 19h e aos sábados e domingos das 10h às 18h<br></p>
-                                                                    <p class="text-left clique "> <B> INICIAR CHAT </B><P>
-                                                                </div>
-                                                                </div>
+                                                                        <p class="text-left clique ">
+                                                                            <B> INICIAR CHAT </B>
+                                                                            <P>
+                                                                            </div>
+                                                                        </div>
 
-                                                            </div>
-                                                        </div>
-                                                    </li>
-
-                                                    <li class="collection-item1">
-                                                        <div class="row  icone green tiraespaco" onclick="manufatura()">
-                                                            <div class="left">
-                                                                <div class="row">
-                                                                    <div class="col s12 m1">
                                                                     </div>
-                                                                    <div class="col s12 m7">
-                                                                        <h2 class='texto'>
-                                                                            <i class="left material-icons md-45 sm-40">build</i>
-                                                                            <b>    First</b>
-                                                                        </h2>
-                                                                    </div>
-                                                                    <div class="col s12 m12">
-                                                                        <p class="text-left textos">Horário de atendimento: de segunda à sexta-feira, das 8:30h às 19h<br></p>
-                                                                        <p class="text-left clique"> <B> INICIAR CHAT </B><P>    
-                                                                    </div>
-                                                                    </div>
-
                                                                 </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
+                                                            </li>
 
-
-                                                <div class="col s12 m6">
-                                                    <p style="color:black; border: px; font-family:arial; font-size:110%;" class="center">Clique no vídeo e aprenda à como utilizar o atendimento via Chat!</p>
-
-                                                    <object id="video1" class="video" style="width: 100%; border: 0px;" autoplay>
-                                                        <param name="movie" value="resources\video.mp4">
-                                                        <param name="allowFullScreen" value="true">
-                                                            <param name="allowscriptaccess" value="always">
-                                                                <source src="resources\video.mp4" type="video/mp4">
-                                                                    <img src="resources\TOTVS.png" style="width: 100%; border: 0px;">
-                                                                    </object>
-
-                                                                </div>
-
-                                                                <!-- Lado Direto  -->
-                                                                <div class="col s12 m3">
-                                                                    <ul class="collection1">
-                                                                        <li class="collection-item">
-                                                                            <div class="row  icone blue tiraespaco" onclick="varejo()">
-                                                                                <div class="left">
-                                                                                    <div class="row">
-                                                                                        <div class="col s12 m1">
+                                                            <li class="collection-item1">
+                                                                <div class="row  icone green tiraespaco" onclick="manufatura()">
+                                                                    <div class="left">
+                                                                        <div class="row">
+                                                                            <div class="col s12 m1">
+                                                                            </div>
+                                                                            <div class="col s12 m7">
+                                                                                <h2 class='texto'>
+                                                                                    <i class="left material-icons md-45 sm-40">build</i>
+                                                                                    <b>    First</b>
+                                                                                </h2>
+                                                                            </div>
+                                                                            <div class="col s12 m12">
+                                                                                <p class="text-left textos">Horário de atendimento: de segunda à sexta-feira, das 8:30h às 19h<br></p>
+                                                                                    <p class="text-left clique">
+                                                                                        <B> INICIAR CHAT </B>
+                                                                                        <P>
                                                                                         </div>
-                                                                                        <div class="col s12 m9">
-                                                                                            <h2 class='texto' >
-                                                                                                <i class="left material-icons md-45">shopping_cart</i>
-                                                                                                <b>Vitrine</b>
-                                                                                            </h2>
-                                                                                        </div>
-                                                                                        <div class="col s12 m12">
-                                                                                            <p class="text-left textos">Horário atendimento: de segunda à sexta-feira, das 8:00h às 19h e aos sábados 9h às 15h<br></p>
-                                                                                         <p class="text-left clique"> <B> INICIAR CHAT </B><P>   
-                                                                                        </div>
-                                                                                        </div>
+                                                                                    </div>
 
-                                                                                    </p>
                                                                                 </div>
                                                                             </div>
-                                                                        </li>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
 
-                                                                        <li class="collection-item1">
-                                                                            <div class="row  icone pink tiraespaco" onclick="saude()">
-                                                                                <div class="left">
-                                                                                    <div class="row">
-                                                                                        <div class="col s12 m1">
-                                                                                        </div>
-                                                                                        <div class="col s12 m9">
-                                                                                            <h2 class='texto' >
-                                                                                                <i class="left material-icons md-45">healing</i>
-                                                                                                <b>Saúde</b>
-                                                                                            </h2>
-                                                                                        </div>
-                                                                                        <div class="col s12 m12">
-                                                                                            <p class="text-left textos">   Horário de atendimento: de segunda à sexta-feira, das 7:30h às 19h <br></p>
-                                                                                            <p class="text-left clique"> <B> INICIAR CHAT </B><P>   
-                                                                                        </div>
+
+                                                                <div class="col s12 m6">
+                                                                    <p style="color:black; border: px; font-family:arial; font-size:110%;" class="center">Clique no vídeo e aprenda à como utilizar o atendimento via Chat!</p>
+
+                                                                    <object id="video1" class="video" style="width: 100%; border: 0px;" autoplay>
+                                                                        <param name="movie" value="resources\video.mp4">
+                                                                        <param name="allowFullScreen" value="true">
+                                                                            <param name="allowscriptaccess" value="always">
+                                                                                <source src="resources\video.mp4" type="video/mp4">
+                                                                                    <a href="resources/video.mp4"><img src="resources\TOTVS.png" style="width: 100%; border: 0px;"></a>
+                                                                                    </object>
+
+                                                                                </div>
+
+                                                                                <!-- Lado Direto  -->
+                                                                                <div class="col s12 m3">
+                                                                                    <ul class="collection1">
+                                                                                        <li class="collection-item">
+                                                                                            <div class="row  icone blue tiraespaco" onclick="varejo()">
+                                                                                                <div class="left">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col s12 m1">
+                                                                                                        </div>
+                                                                                                        <div class="col s12 m9">
+                                                                                                            <h2 class='texto' >
+                                                                                                                <i class="left material-icons md-45">shopping_cart</i>
+                                                                                                                <b>Vitrine</b>
+                                                                                                            </h2>
+                                                                                                        </div>
+                                                                                                        <div class="col s12 m12">
+                                                                                                            <p class="text-left textos">Horário atendimento: de segunda à sexta-feira, das 8:00h às 19h e aos sábados 9h às 15h<br></p>
+                                                                                                                <p class="text-left clique">
+                                                                                                                    <B> INICIAR CHAT </B>
+                                                                                                                    <P>
+                                                                                                                    </div>
+                                                                                                                </div>
+
+                                                                                                            </p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </li>
+
+                                                                                                <li class="collection-item1">
+                                                                                                    <div class="row  icone pink tiraespaco" onclick="saude()">
+                                                                                                        <div class="left">
+                                                                                                            <div class="row">
+                                                                                                                <div class="col s12 m1">
+                                                                                                                </div>
+                                                                                                                <div class="col s12 m9">
+                                                                                                                    <h2 class='texto' >
+                                                                                                                        <i class="left material-icons md-45">healing</i>
+                                                                                                                        <b>Saúde</b>
+                                                                                                                    </h2>
+                                                                                                                </div>
+                                                                                                                <div class="col s12 m12">
+                                                                                                                    <p class="text-left textos">   Horário de atendimento: de segunda à sexta-feira, das 7:30h às 19h <br></p>
+                                                                                                                        <p class="text-left clique">
+                                                                                                                            <B> INICIAR CHAT </B>
+                                                                                                                            <P>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <br>
-                                                            <br>
-                                                            </div>
-                                                            <footer class="page-footer orange">
-                                                                <div class="container">
-                                                                    <div class="row">
-                                                                        <div class="col">
-                                                                            <div class="footer-logo">
-                                                                                <img alt="" class="img-responsive totvs-logo" src="https://totvsdigital.azureedge.net/prod/images/default-source/totvs/default-album/logo-totvs.png?sfvrsn=0">
-                                                                                </div>
-                                                                                <div class="copyright visible-xs">
-                                                                                    <div class="text-center">Copyright TOTVS 2019</div>
-                                                                                </div>
                                                                             </div>
-                                                                            <div class="col m3">
-                                                                                <div class="footerlist">
-                                                                                    <ul>
-                                                                                        <li>
-                                                                                            <a href="https://www.totvs.com/sobre-a-totvs">Institucional</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="https://www.totvs.com/presenca">Encontre a TOTVS</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="https://www.totvs.com/trabalhe-conosco">Carreiras</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="https://www.totvs.com/imprensa">Assessoria de Imprensa</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="http://www.totvslabs.com/">TOTVS Labs</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="http://ri.totvs.com/">Relações com Investidores</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="http://www.totvs.com/eventos">Eventos</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="https://www.totvs.com/biblioteca/demos">Demonstrações Virtuais</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="https://www.totvs.com/eticatotvs">Canal de Ética e Conduta</a>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <a href="https://www.totvs.com/transformacao-digital">Transformação Digital</a>
-                                                                                        </li>
-                                                                                    </ul>
+                                                                            <br>
+                                                                                <br>
                                                                                 </div>
-                                                                            </div>
-
-
-                                                                            <!-- Icones de redes sociais  -->
-                                                                            <div class="container">
-                                                                                <div class="section">
-
-                                                                                    <div class="row">
-                                                                                        <div class="col s10 m6 ">
-                                                                                            <h5 class="white-text">Social</h5>
-                                                                                            <ul class="social-media">
-                                                                                                <li>
-                                                                                                    <a href="https://www.linkedin.com/company/totvs" title="Linkedin" target="_blank">
-                                                                                                        <img class='icones-merc tamanho' alt="linkedIn" src="icons\linkedin.png">
-
-                                                                                                        </a>
-                                                                                                    </li>
-                                                                                                    <li>
-                                                                                                        <a href="https://www.facebook.com/totvs" title="Facebook" target="_blank">
-                                                                                                            <img class='icones-merc tamanho' alt="facebook" src="icons\facebook.png">
-
-                                                                                                            </a>
-                                                                                                        </li>
-                                                                                                        <li>
-                                                                                                            <a href="https://twitter.com/totvs" title="Twitter" target="_blank">
-                                                                                                                <img class='icones-merc tamanho' alt="Twiiter" src="icons\twitter.png">
-
-                                                                                                                </a>
-                                                                                                            </li>
-                                                                                                            <li>
-                                                                                                                <a href="https://www.youtube.com/totvs" title="Youtube" target="_blank">
-                                                                                                                    <img class='icones-merc tamanho' alt="youtube" src="icons\youtube.png">
-
-                                                                                                                    </a>
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                    <a href="http://pt.slideshare.net/totvs" title="Slideshare" target="_blank">
-                                                                                                                        <img class='icones-merc tamanho' alt="Slideshare" src="icons\slideshare.png">
-
-                                                                                                                        </a>
-                                                                                                                    </a>
-                                                                                                                </li>
-                                                                                                                <li>
-                                                                                                                    <a href="http://pt.slideshare.net/totvs" title="Instagram" target="_blank">
-                                                                                                                        <img class='icones-merc tamanho' alt="Instagram" src="icons\instagram.png">
-                                                                                                                        </a>
-                                                                                                                    </li>
-                                                                                                                </ul>
-                                                                                                                <div class="row totvs-site-info">
-                                                                                                                    <ul>
-                                                                                                                        <li>
-                                                                                                                            <a href="LINK">Política de Privacidade&nbsp;&nbsp;</a>
-                                                                                                                        </li>
-                                                                                                                        <li>
-                                                                                                                            <a href="LINK">Termos de Uso&nbsp;&nbsp;</a>
-                                                                                                                        </li>
-                                                                                                                    </ul>
-                                                                                                                </div>
-                                                                                                            </div>
-                                                                                                        </div>
+                                                                                <footer class="page-footer orange">
+                                                                                    <div class="container">
+                                                                                        <div class="row">
+                                                                                            <div class="col">
+                                                                                                <div class="footer-logo">
+                                                                                                    <img alt="" class="img-responsive totvs-logo" src="https://totvsdigital.azureedge.net/prod/images/default-source/totvs/default-album/logo-totvs.png?sfvrsn=0">
+                                                                                                    </div>
+                                                                                                    <div class="copyright visible-xs">
+                                                                                                        <div class="text-center">Copyright TOTVS 2019</div>
                                                                                                     </div>
                                                                                                 </div>
-                                                                                            </footer>
-                                                                                            <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-                                                                                            <script src="js\iZopim.js"></script>
-                                                                                            <script src="js\chat.js"></script>
+                                                                                                <div class="col m3">
+                                                                                                    <div class="footerlist">
+                                                                                                        <ul>
+                                                                                                            <li>
+                                                                                                                <a href="https://www.totvs.com/sobre-a-totvs">Institucional</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="https://www.totvs.com/presenca">Encontre a TOTVS</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="https://www.totvs.com/trabalhe-conosco">Carreiras</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="https://www.totvs.com/imprensa">Assessoria de Imprensa</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="http://www.totvslabs.com/">TOTVS Labs</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="http://ri.totvs.com/">Relações com Investidores</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="http://www.totvs.com/eventos">Eventos</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="https://www.totvs.com/biblioteca/demos">Demonstrações Virtuais</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="https://www.totvs.com/eticatotvs">Canal de Ética e Conduta</a>
+                                                                                                            </li>
+                                                                                                            <li>
+                                                                                                                <a href="https://www.totvs.com/transformacao-digital">Transformação Digital</a>
+                                                                                                            </li>
+                                                                                                        </ul>
+                                                                                                    </div>
+                                                                                                </div>
 
-                                                                                        </body>
 
-                                                                                    </html>
+                                                                                                <!-- Icones de redes sociais  -->
+                                                                                                <div class="container">
+                                                                                                    <div class="section">
+
+                                                                                                        <div class="row">
+                                                                                                            <div class="col s10 m6 ">
+                                                                                                                <h5 class="white-text">Social</h5>
+                                                                                                                <ul class="social-media">
+                                                                                                                    <li>
+                                                                                                                        <a href="https://www.linkedin.com/company/totvs" title="Linkedin" target="_blank">
+                                                                                                                            <img class='icones-merc tamanho' alt="linkedIn" src="icons\linkedin.png">
+
+                                                                                                                            </a>
+                                                                                                                        </li>
+                                                                                                                        <li>
+                                                                                                                            <a href="https://www.facebook.com/totvs" title="Facebook" target="_blank">
+                                                                                                                                <img class='icones-merc tamanho' alt="facebook" src="icons\facebook.png">
+
+                                                                                                                                </a>
+                                                                                                                            </li>
+                                                                                                                            <li>
+                                                                                                                                <a href="https://twitter.com/totvs" title="Twitter" target="_blank">
+                                                                                                                                    <img class='icones-merc tamanho' alt="Twiiter" src="icons\twitter.png">
+
+                                                                                                                                    </a>
+                                                                                                                                </li>
+                                                                                                                                <li>
+                                                                                                                                    <a href="https://www.youtube.com/totvs" title="Youtube" target="_blank">
+                                                                                                                                        <img class='icones-merc tamanho' alt="youtube" src="icons\youtube.png">
+
+                                                                                                                                        </a>
+                                                                                                                                    </li>
+                                                                                                                                    <li>
+                                                                                                                                        <a href="http://pt.slideshare.net/totvs" title="Slideshare" target="_blank">
+                                                                                                                                            <img class='icones-merc tamanho' alt="Slideshare" src="icons\slideshare.png">
+
+                                                                                                                                            </a>
+                                                                                                                                        </a>
+                                                                                                                                    </li>
+                                                                                                                                    <li>
+                                                                                                                                        <a href="http://pt.slideshare.net/totvs" title="Instagram" target="_blank">
+                                                                                                                                            <img class='icones-merc tamanho' alt="Instagram" src="icons\instagram.png">
+                                                                                                                                            </a>
+                                                                                                                                        </li>
+                                                                                                                                    </ul>
+                                                                                                                                    <div class="row totvs-site-info">
+                                                                                                                                        <ul>
+                                                                                                                                            <li>
+                                                                                                                                                <a href="LINK">Política de Privacidade&nbsp;&nbsp;</a>
+                                                                                                                                            </li>
+                                                                                                                                            <li>
+                                                                                                                                                <a href="LINK">Termos de Uso&nbsp;&nbsp;</a>
+                                                                                                                                            </li>
+                                                                                                                                        </ul>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+
+                                                                                                        </footer>
+                                                                                                        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+                                                                                                        <script src="js\iZopim.js"></script>
+                                                                                                        <script src="js\chat.js"></script>
+                                                                                                        <script>
+                                                                                                            $(document).ready(function() {
+                                                                                                                validaParam();
+                                                                                                                });
+                                                                                                        </script>
+                                                                                                    </body>
+                                                                                                </html>
