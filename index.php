@@ -61,8 +61,9 @@
                                                                     </h2>
                                                                 </div>
                                                                 <div class="col s12 m12">
-                                                                    <p class="text-left textos">Resolva os problemas da sua frente de caixa com um poderoso sistema de vendas e gestão.<br></p>
-                                                                    </div>
+                                                                    <p class="text-left textos ">Horário de atendimento: de segunda à sexta-feira, das 8:00h às 19h e aos sábados e domingos das 10h às 18h<br></p>
+                                                                    <p class="text-left clique "> <B> INICIAR CHAT </B><P>
+                                                                </div>
                                                                 </div>
 
                                                             </div>
@@ -82,8 +83,9 @@
                                                                         </h2>
                                                                     </div>
                                                                     <div class="col s12 m12">
-                                                                        <p class="text-left textos">Sistema de gestão ideal para você ter controle total do seu negócio e produzir mais. <br></p>
-                                                                        </div>
+                                                                        <p class="text-left textos">Horário de atendimento: de segunda à sexta-feira, das 8:30h às 19h<br></p>
+                                                                        <p class="text-left clique"> <B> INICIAR CHAT </B><P>    
+                                                                    </div>
                                                                     </div>
 
                                                                 </div>
@@ -94,9 +96,9 @@
 
 
                                                 <div class="col s12 m6">
-                                                    <p style="color:black; border: 0px; font-family:arial ;" class="center">Clique no vídeo e aprenda à como utilizar o atendimento via Chat!</p>
+                                                    <p style="color:black; border: px; font-family:arial; font-size:110%;" class="center">Clique no vídeo e aprenda à como utilizar o atendimento via Chat!</p>
 
-                                                    <object id="video1" class="video" style="width: 100%; border: 0px;" onPlay="teste()" autoplay>
+                                                    <object id="video1" class="video" style="width: 100%; border: 0px;" autoplay>
                                                         <param name="movie" value="resources\video.mp4">
                                                         <param name="allowFullScreen" value="true">
                                                             <param name="allowscriptaccess" value="always">
@@ -122,8 +124,9 @@
                                                                                             </h2>
                                                                                         </div>
                                                                                         <div class="col s12 m12">
-                                                                                            <p class="text-left textos">Rapidez em operações no PDV e agilidade nos processos de retaguarda com o Vitrine.<br></p>
-                                                                                            </div>
+                                                                                            <p class="text-left textos">Horário atendimento: de segunda à sexta-feira, das 8:00h às 19h e aos sábados 9h às 15h<br></p>
+                                                                                         <p class="text-left clique"> <B> INICIAR CHAT </B><P>   
+                                                                                        </div>
                                                                                         </div>
 
                                                                                     </p>
@@ -144,8 +147,9 @@
                                                                                             </h2>
                                                                                         </div>
                                                                                         <div class="col s12 m12">
-                                                                                            <p class="text-left textos">Uma solução desenvolvida para atender o segmento de consultórios médicos e clínicas. <br></p>
-                                                                                            </div>
+                                                                                            <p class="text-left textos">   Horário de atendimento: de segunda à sexta-feira, das 7:30h às 19h <br></p>
+                                                                                            <p class="text-left clique"> <B> INICIAR CHAT </B><P>   
+                                                                                        </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -270,7 +274,7 @@
                                                                                             <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
                                                                                             <script src="js\iZopim.js"></script>
                                                                                             <script src="js\chat.js"></script>
-                                                                                            <script src="js\cache.js"></script>
+
                                                                                         </body>
 
                                                                                     </html>

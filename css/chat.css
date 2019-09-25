@@ -43,13 +43,19 @@ a {
     font-style:Arial; 
  }
 
-
  /* cabeçario dos botões */
  .text-center {
     font-size:15px;
     text-align:center;
     font-style:Arial; 
  }
+ /* Iniciar CHAT */
+
+ .clique {
+    font-size:20px;
+    text-align:center;
+    font-style:Arial;
+}
 
  /* icones de contato footer */
 
@@ -74,7 +80,7 @@ a {
 /* Vídeo */
 
 .video {
-    width:100%;height:100%;width: 447px; height: 330.00px; float: none; clear: both; margin: 10px auto;
+    width:100%;height:100%;width: 447px; height: 449.00px; float: none; clear: both; margin: 10px auto; 
 }
 
 .tamanho {
