@@ -12,6 +12,7 @@ var saude = () => {
     createChat('ffec1a060b7442f1379a9ea90662824a51ca7a10');
 }
 
+
 var createChat = key => {
     if (window.zE !== undefined) zE.hide();
     removeDrozScript();
@@ -68,7 +69,7 @@ var validaParam = () => {
         'id' : items[0],
         'valor' : items[1]
         }
-    console.log(parametros.id);
+        
     if (parametros.id == '?page') {
         switch (parametros.valor) {
             case 'manufatura':
